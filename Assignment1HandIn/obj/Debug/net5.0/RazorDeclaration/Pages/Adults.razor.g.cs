@@ -206,7 +206,7 @@ using System.Text.RegularExpressions;
                 ).
                 ToList();
         }
-        else if (toFilterBy?[1] > 0)
+        else if (toFilterBy?[1] > 0 && toFilterBy[0] == null)
         {
             adultsToShow = allAdult.Where(adult =>
                 Convert.ChangeType(GetPropertyValue(adult, filterOption), Type.GetType(GetPropertyValueType(adult, filterOption))) <= toFilterBy[1]

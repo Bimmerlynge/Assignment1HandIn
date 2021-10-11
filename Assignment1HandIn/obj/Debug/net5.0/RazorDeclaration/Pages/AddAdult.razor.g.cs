@@ -118,7 +118,7 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 74 "C:\Users\mathi\RiderProjects\Aflevering\Assignment1HandIn\Assignment1HandIn\Pages\AddAdult.razor"
+#line 63 "C:\Users\mathi\RiderProjects\Aflevering\Assignment1HandIn\Assignment1HandIn\Pages\AddAdult.razor"
        
     private Adult newAdultItem = new Adult();
     private Job newJobItem = new Job();
